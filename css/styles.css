@@ -1,5 +1,5 @@
 body {
-    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://bit.ly/2PdLJ3V) no-repeat center center/cover;
+    background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://bit.ly/2PdLJ3V) no-repeat center center/cover;
 }
 .ppp {
     color:white;
@@ -10,12 +10,19 @@ h1 {
     font-family: 'Righteous', cursive;
     text-shadow: 1px 1px 2px white, 0 0 25px white, 0 0 5px white;
     font-size:4.8em;
+    text-align:center;
+
 }
 .ttt {
     color:white;
     font-family: 'EB Garamond', serif;
     font-size:1.8em;
 }
+.ggg {
+    color:aqua;
+    font-family: 'EB Garamond', serif;
+    font-size:1.8em;
+} 
 
 label {
     font-size:1.5em;
