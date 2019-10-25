@@ -28,5 +28,6 @@
 
 ## Project Screenshot
 
-<img src="images/screenshot1.jpg" width=200px>
-<img src="images/screenshot2.jpg" width=200px>
+<img src="images/screenshot1.jpg" width=200px height=200px>
+![screenshot1](https://user-images.githubusercontent.com/56060699/67555855-cbaf8980-f71a-11e9-8e77-152af0156c1a.jpg)
+
