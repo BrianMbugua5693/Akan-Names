@@ -7,6 +7,7 @@
 - Project Screenshot
 - Acknowledgement
 - Licence
+- Contacts
 - Author
 
 # AKAN NAMING SYSTEM
@@ -42,8 +43,9 @@
   - Collegues for their assistance in the project
   - And finally Myself :-)
 
- ## Licence 
- The MIT License (MIT)
+## Licence
+
+The MIT License (MIT)
 
 Copyright (c) 2019 Simon Kimani.
 
@@ -55,5 +57,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 @SkimaniKings
 
- ## Author 
- - 
+## Contacts
+
+- Incase of any feedback you can reach me through my personal contacts:
+  - kimanisimon856@gmail.com
+  - 0713813919
+
+## Author
+
+> Simon Kimani
