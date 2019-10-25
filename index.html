@@ -37,19 +37,20 @@
                     <label>Month</label>
                     <input type="number" class="form-control" id="month" placeholder="Enter the month" required min="1"
                         max="12">
-                
+
                     <label>Day</label>
                     <input type="number" class="form-control" id="day" placeholder="Enter the day" required min="1"
                         max="31">
                 </div>
                 <div class="ggg">
                     <label>Gender</label><br>
-                    <input type="radio" name="gender" value="male" checked> Male<br>
-                    <input type="radio" name="gender" value="female"> Female<br>
-                    <input type="radio" name="gender" value="other"> Other
+                    <input type="radio" name="gender" id="gender" value="male" checked> Male<br>
+                    <input type="radio" name="gender" id="gender" value="female"> Female<br>
                 </div>
             </div>
-            <button type="submit" onclick="formValidate() ;submitButton()" class="btn btn-outline-info btn-lg">Submit</button>
+            <button type="submit" onclick="formValidate() ;submitButton()" onclick="submission()"
+                class="btn btn-outline-info btn-lg">Submit</button>
+            <p id="outp"></p>
         </form>
         <footer>
             copyright &copy; Simon Web Designs.<br> 2019
