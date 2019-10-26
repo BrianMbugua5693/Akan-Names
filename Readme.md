@@ -5,6 +5,7 @@
 - Deployment
 - BDD (Behaviour Driven Development)
 - Project Screenshot
+- Technologies used
 - Acknowledgement
 - Licence
 - Contacts
@@ -36,6 +37,11 @@
 - This is the landing page of the website.
 <img src="images/screenshot2.jpg" width=300px>
 - This is the section where one gets to fill out the form.
+## Technologies Used
+- html
+ - css
+ - javascript
+ - bootsrap 
  
  ## Acknowledgement 
  I would like to thank the following for their assistance through out this project.
