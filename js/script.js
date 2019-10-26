@@ -51,15 +51,18 @@ else if ((month < 1) || (month > 31)) {
 }
   
  else if (day < 0 || day > 31) {
-    output.style.background ="red"
+    output.style.background ="lime"
     output.style.color= "white"
     output.innerHTML = "Hey! " + name + " please enter a valid day! "
 }
  
   else if(male.checked) {
+    output.style.background ="lime"
       output.innerHTML = "Hey! " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + maleNames[results];
   }
    else {
+    output.style.background ="lime"
+    output.style.background ="red"
     output.innerHTML = "Hey! " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + femaleNames[results];
 }
 };
