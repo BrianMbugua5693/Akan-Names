@@ -16,7 +16,6 @@
 <body>
     <div class="container">
         <h1>Akan System Naming culture</h1>
-        <!----<h2>Know your <span>Day</span> of birth!</h2>-->
         <p class="ppp">The Akan naming systmem is a culture that was developed by the Ghananians. Children were given a
             "day name"
             which corresponds to the day in the week they were born. The tradition was shared out through-out west
@@ -28,9 +27,9 @@
         <form>
             <div>
                 <div>
-                    <label>Enter the Century Of birth</label>
-                    <input type="number" class="form-control" id="century" placeholder="For example 20 or 21" required
-                        min="19" max="22">
+                        <p id="output"></p>
+                    <label>Enter Your first Name.</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter" required>
                     <label>Year</label>
                     <input type="number" class="form-control" id="year" placeholder="Enter the year." required
                         min="1980" max="2019">
@@ -44,13 +43,12 @@
                 </div>
                 <div class="ggg">
                     <label>Gender</label><br>
-                    <input type="radio" name="gender" id="gender" value="male" checked> Male<br>
-                    <input type="radio" name="gender" id="gender" value="female"> Female<br>
+                    <input type="radio" name="gender" id="male" value="male" checked> Male
+                    <input type="radio" name="gender" id="female" value="female"> Female
                 </div>
             </div>
-            <button type="submit" onclick="formValidate() ;submitButton()" onclick="submission()"
-                class="btn btn-outline-info btn-lg">Submit</button>
-            <p id="outp"></p>
+            <a onclick="submission()" class="btn btn-outline-info btn-lg">Submit</a>
+            
         </form>
         <footer>
             copyright &copy; Simon Web Designs.<br> 2019
