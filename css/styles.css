@@ -41,6 +41,8 @@ form {
     color:white;
 }
 #output {
-    color:purple;
+    color:lime;
     font-size:1.8em;
+    border:2px solid white;
+
 }
