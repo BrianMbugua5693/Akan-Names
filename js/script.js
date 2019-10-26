@@ -36,20 +36,24 @@ var submission = function() {
   var output = document.getElementById("output");
   var male = document.getElementById("male")
   var female = document.getElementById("female")
-  if (day < 1 && day > 31 ) {
-      output.style.background ="red"
-      output.style.color= "white"
-      output.innerHTML = "Hey! " + name + " please enter a valid day!(1-31) "
-  }
- else if (month < 1 && month > 12 ) {
+  
+  
+ if (year < 1900) {
     output.style.background ="red"
     output.style.color= "white"
-    output.innerHTML = "Hey! " + name + " please enter a valid month!(1-12) "
+    output.innerHTML = "Hey! " + name + " please enter a valid year! "
 }
- else if (year < 1900) {
+  
+else if ((month < 1) || (month > 31)) {
     output.style.background ="red"
     output.style.color= "white"
-    output.innerHTML = "Hey! " + name + " please enter a valid year "
+    output.innerHTML = "Hey! " + name + " please enter a valid month! "
+}
+  
+ else if (day < 0 || day > 31) {
+    output.style.background ="red"
+    output.style.color= "white"
+    output.innerHTML = "Hey! " + name + " please enter a valid day! "
 }
  
   else if(male.checked) {
