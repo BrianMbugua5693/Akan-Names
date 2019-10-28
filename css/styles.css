@@ -39,10 +39,15 @@ form {
     text-align:center;
 }
 a {
-    color:aqua;
+    color:white;
+}
+.btn btn-outline-info btn-lg {
+    color:white;
 }
 #output {
     font-size:1.8em;
     border:2px solid white;
+    text-shadow: 2px 2px 4px #000000;
+}
 
 }
