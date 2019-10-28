@@ -38,7 +38,7 @@ var submission = function() {
   var female = document.getElementById("female")
   
   
- if (year < 1900) {
+ if (year < 0) {
     output.style.background ="red"
     output.style.color= "white"
     output.innerHTML = "Hey! " + name + " please enter a valid year! "
