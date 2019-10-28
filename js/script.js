@@ -20,7 +20,7 @@ var submission = function() {
   ];
   var femaleNames = [
     "Akosua",
-    " Adwoa",
+     " Adwoa",
     "Abenaa",
     "Akua",
     "Yaa",
@@ -51,7 +51,7 @@ else if ((month < 1) || (month > 31)) {
 }
   
  else if (day < 0 || day > 31) {
-    output.style.background ="lime"
+    output.style.background ="red"
     output.style.color= "white"
     output.innerHTML = "Hey! " + name + " please enter a valid day! "
 }
