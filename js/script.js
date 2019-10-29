@@ -55,12 +55,17 @@ else if ((month < 1) || (month > 31)) {
     output.style.color= "white"
     output.innerHTML = "Hey! " + name + " please enter a valid day! "
 }
+ var valid = (year>0 && (month > 0 && month <= 12) (day > 0 && day <32))
  
-  else if(male.checked) {
+ if(valid == false){
+   alert("No Input received!!");
+ }
+
+  if(male.checked && year > 0 && month > 0 && month < 12 && day > 0 && day < 32) {
     output.style.background ="lime"
       output.innerHTML = "Hey! " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + maleNames[results];
   }
-   else {
+   else if(female.checked && year > 0 && month > 0 && month < 12 && day > 0 && day < 32) {
     output.style.background ="lime"
     output.style.background ="red"
     output.innerHTML = "Hey! " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + femaleNames[results];
